@@ -30,14 +30,14 @@ public class Main {
       System.out.println(10 % 10);
 
       System.out.println(30 % 5);
-//      int x = 10;
-//      int y = x+5;
-//      x = y;
-//      System.out.println(x);
-//      int x1 = 10;
-//      x = x1 + 5;
-//      System.out.println(x);
       int x = 10;
+      int y = x+5;
+      x = y;
+      System.out.println(x);
+      int x1 = 10;
+      x = x1 + 5;
+      System.out.println(x);
+      int xp = 10;
       x +=5;
       x -=5;
       x *=5;
@@ -45,19 +45,19 @@ public class Main {
       x %=5;
       System.out.println(x);
       int q = 10;
-//      q = q + 1;
-//      System.out.println(q);
-//      q +=1;
-//      System.out.println(q);
-//      q++;
-//      System.out.println(q);
-//      q--;
-//      System.out.println(q);
-//      System.out.println(q);
-//      q++;
-//      System.out.println(q);
-//        q++;
-//      System.out.println(q);
+      q = q + 1;
+      System.out.println(q);
+      q +=1;
+      System.out.println(q);
+      q++;
+      System.out.println(q);
+      q--;
+      System.out.println(q);
+      System.out.println(q);
+      q++;
+      System.out.println(q);
+        q++;
+      System.out.println(q);
       ++q;
       System.out.println(q);
       ++q;
@@ -76,6 +76,29 @@ public class Main {
       System.out.println(Math. pow (4, 5));
       System.out.println(Math.pow (2,  3.5));
       System.out.println(Math.pow (3.2, 2.4));
+      System.out.println(Math.sqrt(121));
+      System.out.println(Math.sqrt(16.87));
+      System.out.println(Math.round (14.3));
+      System.out.println(Math.round (14.6));
+      System.out.println(Math.max(1, 12));
+      System.out.println(Math.min(3, 9));
+      System.out.println(Math.random());
+      System.out.println(Math. random() *10);
+      System.out.println((int)(Math.random()*10));
+      System.out.println((int)(Math.random()*10));
+      System.out.println((int)(Math.random()*10));
+      System.out.println((int)(Math.random()*10));
+      System.out.println((int)(Math.random()*10));
+      System.out.println((int)(Math.random()*11));
+      System.out.println(Math.round (Math.random() * 10));
+      System.out.println((int) (Math.random()*10));
+//      System.out.println((int)(Math.random()*10));нужно всегда следить за дужками в
+//      дужках выкорыстовуеться додаваня и т,Д, вси дии идут з лива на право
+      int min = 37;
+      int max = 78;
+        int resulta = ((int) (Math.random() * (max - min + 1 ) +min));
+      System.out.println((int) (Math.random() * (max - min + 1 ) +min));
+
 
 
 
