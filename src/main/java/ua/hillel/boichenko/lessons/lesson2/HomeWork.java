@@ -5,11 +5,16 @@ public class HomeWork {
 
 
         String str = "Stonehenge, Salisbury, UK, Geographic";
-        String str2 = "Latitude";
-        String str3 = "Longitude";
+        String str0 = ":";
+        String str2 = "\n";
+        String str3 = "Latitude";
         double doublel = 51.179177;
+        String str4 = ";";
+        String str5 = "\n";
+        String str6 = "Lotngitude";
         float floatlon = -1.826284F;
-        System.out.println(str +str2 +str3 +doublel +floatlon);
+        System.out.println(str + str0 +str2 +str3 +doublel + str4 + str5
+                + str6 +floatlon);
 
     }
 }
