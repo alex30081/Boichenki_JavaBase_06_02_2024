@@ -11,11 +11,9 @@ public class main {
 //        System.out.println(a <= b);
 //        System.out.println(a == b);
 //        System.out.println(a != b);
-//
+////        System.out.println();
 //        System.out.println();
-//        System.out.println();
-//
-//        System.out.println(!true);
+//       System.out.println(!true);
 //        System.out.println(!false);
 //        boolean result = a >b;
 //        System.out.println("result =" + result);
@@ -26,25 +24,32 @@ public class main {
 //        System.out.println(str == str3);
 //        System.out.println( str.equals(str2));
 //        System.out.println(str.equals(str3));
-
-        int a = 10;
-        int b = 15;
-        int c = 20;
-
-        boolean result = a < b && a < c && a > c;
-        System.out.println(result);
-        boolean result2 = a > b || c++ > ++a;
-        System.out.println(result2);
-        System.out.println("a =" +a);
-        System.out.println("c =" +c);
-//        boolean result = a < b && a > c;
-//        if (a > b) {
-//            System.out.println("Hello!!!");
-//        } else {
-//            System.out.println("hi");}
-//        int c2 = ((int) (a * b));
-//        System.out.println(c2);
-
-
-    }
+//        int a = 10;
+//      //        int b = 15;//        int c = 20;
+//
+//   boolean result = a < b && a < c && a > c;
+//        System.out.println(result);
+//        boolean result2 = a > b || c++ > ++a;
+//        System.out.println(result2);
+//        System.out.println("a =" +a);
+//        System.out.println("c =" +c);
+//        boolean result1 = a > b && c < a || c > a;
+//        boolean result3 = (a > b || true) && (c < a || c > a) || true;
+//        System.out.println(result3);
+//      boolean result = a < b && a > c;
+        int x = 5;
+        System.out.println(++x > 5);
+        System.out.println("x = " + x);
+        System.out.println(x++ == 5);
+        System.out.println("x = " +x);
+        System.out.println(++x != 6);
+        System.out.println("x = " + x);
+        int a = 1;
+        int b = 10;
+        if (a > b) {
+            System.out.println("hello my friend!!!");
+            String str = ("good news");
+            System.out.println(str);}
+        System.out.println("bie");
+        }
 }
