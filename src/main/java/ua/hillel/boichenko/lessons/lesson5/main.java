@@ -41,15 +41,63 @@ public class main {
         System.out.println(++x > 5);
         System.out.println("x = " + x);
         System.out.println(x++ == 5);
-        System.out.println("x = " +x);
+        System.out.println("x = " + x);
         System.out.println(++x != 6);
         System.out.println("x = " + x);
-        int a = 1;
-        int b = 10;
-        if (a > b) {
-            System.out.println("hello my friend!!!");
-            String str = ("good news");
-            System.out.println(str);}
-        System.out.println("bie");
-        }
+        int a = 5;
+//        if (a > b) {
+//            System.out.println("hello my friend!!!");
+//            String str = ("good news");
+//            System.out.println(str);
+//        }
+//        System.out.println("bie");
+//        if (a > b) {
+//            System.out.println("Hello!!");
+//
+//        } else {
+//            System.out.println("Bie!!");
+//        }
+//        if (a < b) {
+//            System.out.println("Hello!");
+//        } else if (a > b) {
+//            System.out.println("good job");
+//
+//        }
+//        else
+//            System.out.println(" I am very sory");
+//        if (a >=b); {
+//            System.out.println( "hello!!!");
+//            if (a > b) {
+//                System.out.println( "Hello man");
+//            }
+//            else {
+//                System.out.println("Bie Bie Bie!!!");}}
+//        // BAD VARSION
+//        if (a == b);
+//        System.out.println(a = b);
+//        System.out.println(a = b);
+//        System.out.println(a = b);
+        switch (a) {
+            case 1 : {
+                System.out.println("1");
+                break;}
+            case 2 : {
+                System.out.println("2");
+                break;}
+            case 3 : {
+                System.out.println("3");
+            break;}
+           case 4 : {
+                System.out.println("4");
+           break;}
+            case 5 : {
+                System.out.println("5");
+            break;}
+            case 6 : {
+                System.out.println("6");
+                break ;}
+
+            }
+
+    }
 }
