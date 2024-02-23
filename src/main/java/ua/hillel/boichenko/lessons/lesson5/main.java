@@ -37,14 +37,14 @@ public class main {
 //        boolean result3 = (a > b || true) && (c < a || c > a) || true;
 //        System.out.println(result3);
 //      boolean result = a < b && a > c;
-        int x = 5;
-        System.out.println(++x > 5);
-        System.out.println("x = " + x);
-        System.out.println(x++ == 5);
-        System.out.println("x = " + x);
-        System.out.println(++x != 6);
-        System.out.println("x = " + x);
-        int a = 5;
+//        int x = 5;
+//        System.out.println(++x > 5);
+//        System.out.println("x = " + x);
+//        System.out.println(x++ == 5);
+//        System.out.println("x = " + x);
+//        System.out.println(++x != 6);
+//        System.out.println("x = " + x);
+//        int a = 5;
 //        if (a > b) {
 //            System.out.println("hello my friend!!!");
 //            String str = ("good news");
@@ -77,6 +77,7 @@ public class main {
 //        System.out.println(a = b);
 //        System.out.println(a = b);
 //        System.out.println(a = b);
+        int a = 7;
         switch (a) {
             case 1 : {
                 System.out.println("1");
@@ -96,8 +97,35 @@ public class main {
             case 6 : {
                 System.out.println("6");
                 break ;}
-
+            default: {
+                System.out.println("Wrong!!!");
+                break;
             }
 
+            }
+            int b = 8;
+            switch (b ) {
+                case 2 : {
+                    System.out.println("olen");
+            }
+                case 5 : {
+                    System.out.println(" makaka");}
+                case  9 : {
+                    System.out.println(" goood");}
+                case 8 : {
+                    System.out.println(" bingooo!!!");}
+
+
     }
-}
+//    if( a <= b ) {
+//        System.out.println("elllo aloha");
+//        if ( a ==  b) {
+//            System.out.println("muka");}
+//        else {
+//            System.out.println(" bi bi bi");}}
+
+        String str = "WEr";
+
+
+
+}}
