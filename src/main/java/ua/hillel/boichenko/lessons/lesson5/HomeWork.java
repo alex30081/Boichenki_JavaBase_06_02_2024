@@ -96,9 +96,9 @@ public class HomeWork {
         int c = (Team1Player1 + Team1Player2 + Team1Player3 + Team1Player4 + Team1Player5);
         int d = (Team2Player1 + Team2Player2 + Team2Player3 + Team2Player4 + Team2Player5);
         if (a > b) {
-            System.out.println("Win team = " + strTeam1 + "Scored" + c + "Points");
+            System.out.println("Win team = " + strTeam1 + ":" + "Scored" + "-" + c + "Points");
         } else if (a < b) {
-            System.out.println("Win team =" + strTeam2 + "Scored" + d + "Points");
+            System.out.println("Win team = " + strTeam2 + ":" + "Scored" + "-" + d + "Points");
         }else {
             System.out.println("We have no winner, friendship won!!!");
         }
