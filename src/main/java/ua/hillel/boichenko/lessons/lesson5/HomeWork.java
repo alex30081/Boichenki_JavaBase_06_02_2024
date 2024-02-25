@@ -14,8 +14,6 @@ public class HomeWork {
         int Team2Player3 = 0;
         int Team2Player4 = 0;
         int Team2Player5 = 0;
-        String strTeam1 = ("Please enter Team1 name!");
-        String strTeam2 = ("Please enter Team2 name!");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter Team1 name!");
         String strTeam_1 = scanner.next();
@@ -91,11 +89,20 @@ public class HomeWork {
                 System.exit(0);
             }
         }
+        int a = ((Team1Player1 + Team1Player2 +Team1Player3 +Team1Player4 + Team1Player5) / 5);
+        int b = ((Team2Player1 + Team2Player2 + Team2Player3 + Team2Player4 + Team2Player5) / 5);
+        String strTeam1 =("Team1");
+        String strTeam2 = ("Team2");
+        int c = (Team1Player1 + Team1Player2 + Team1Player3 + Team1Player4 + Team1Player5);
+        int d = (Team2Player1 + Team2Player2 + Team2Player3 + Team2Player4 + Team2Player5);
+        if (a > b) {
+            System.out.println("Win team = " + strTeam1 + "Scored" + c + "Points");
+        } else if (a < b) {
+            System.out.println("Win team =" + strTeam2 + "Scored" + d + "Points");
+        }else {
+            System.out.println("We have no winner, friendship won!!!");
 
-
-
-
-
-
-            }
+        }
+    }
+    }
 }
