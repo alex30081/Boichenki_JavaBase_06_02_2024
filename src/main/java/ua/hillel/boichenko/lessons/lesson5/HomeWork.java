@@ -101,8 +101,7 @@ public class HomeWork {
             System.out.println("Win team =" + strTeam2 + "Scored" + d + "Points");
         }else {
             System.out.println("We have no winner, friendship won!!!");
-
         }
-    }
+
     }
 }
