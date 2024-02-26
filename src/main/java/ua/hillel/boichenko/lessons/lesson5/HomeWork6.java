@@ -2,7 +2,7 @@ package ua.hillel.boichenko.lessons.lesson5;
 
 import java.util.Scanner;
 
-public class HomeWork {
+public class HomeWork6 {
     public static void main(String[] args) {
         int Team1Player1 = 0;
         int Team1Player2 = 0;
