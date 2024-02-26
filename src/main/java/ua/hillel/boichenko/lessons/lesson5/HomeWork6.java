@@ -63,12 +63,12 @@ public class HomeWork6 {
         System.out.println("Please enter kills by Player1Team2");{
         if (scanner.hasNextInt()) {
             Team2Player1 = scanner.nextInt();
-            System.out.println("Team2Player1 = " + Team2Player1 + " " + "kils");
+            System.out.println("Team2Player1 = " + Team2Player1 + " " + "kills");
             scanner.nextLine();
             System.out.println("Please enter kills by Player2Team2");
             if (scanner.hasNextInt()) {
                 Team2Player2 = scanner.nextInt();
-                System.out.println("Team2Player2 = " + Team2Player2 + " " + "kils");
+                System.out.println("Team2Player2 = " + Team2Player2 + " " + "kills");
                 System.out.println("Please enter kills by Player3Team2");
             }else{
                 System.out.println("Wrong data!!! Restart APP!!!");
@@ -76,7 +76,7 @@ public class HomeWork6 {
             scanner.nextLine();
             if (scanner.hasNextInt()) {
                 Team2Player3 = scanner.nextInt();
-                System.out.println("Team2Player3 = " + Team2Player3 + " " + "kils");
+                System.out.println("Team2Player3 = " + Team2Player3 + " " + "kills");
                 System.out.println("Please enter kills by Player4Team2");
             }else{
                 System.out.println("Wrong data!!! Restart APP!!!");
@@ -84,14 +84,14 @@ public class HomeWork6 {
             scanner.nextLine();
             if (scanner.hasNextInt()) {
                 Team2Player4 = scanner.nextInt();
-                System.out.println("Team2Player4 = " + Team2Player4 + " " + "kils");
+                System.out.println("Team2Player4 = " + Team2Player4 + " " + "kills");
                 System.out.println("Please enter kills by Player5Team2");
             }else{
                 System.out.println("Wrong data!!! Restart APP!!!");
                 System.exit(0);}
                 if (scanner.hasNextInt()) {
                     Team2Player5 = scanner.nextInt();
-                    System.out.println("Team2Player5 = " + Team2Player5 + " " + "kils");
+                    System.out.println("Team2Player5 = " + Team2Player5 + " " + "kills");
                     scanner.nextLine();}
                 else{
                     System.out.println("Wrong data!!! Restart APP!!!");
