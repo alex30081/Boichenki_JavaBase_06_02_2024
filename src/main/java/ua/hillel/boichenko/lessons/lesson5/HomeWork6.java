@@ -100,8 +100,8 @@ public class HomeWork6 {
             System.out.println("Wrong data!!! Restart APP!!!");
             System.exit(0);}
 
-    int a = ((Team1Player1 + Team1Player2 + Team1Player3 + Team1Player4 + Team1Player5) / 5);
-    int b = ((Team2Player1 + Team2Player2 + Team2Player3 + Team2Player4 + Team2Player5) / 5);
+    double a  = ((Team1Player1 + Team1Player2 + Team1Player3 + Team1Player4 + Team1Player5) / 5D);
+    double b = ((Team2Player1 + Team2Player2 + Team2Player3 + Team2Player4 + Team2Player5) / 5D);
         System.out.println("Average number of kills Team1 = "+a);
         System.out.println("Average number of kills Team2 = "+b);
     String strTeam1 = ("Team1");
