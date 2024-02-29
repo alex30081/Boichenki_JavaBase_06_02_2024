@@ -5,7 +5,7 @@ public class Main {
 //    for (int i = 0; i <= 7; i++) {
 //            System.out.println( " hi my friend!!!");
 ////        }
-//        int i = 0;
+        int i = 0;
 //        for (; i < 10; i += 4){
 //            System.out.println("hi blaaa!!!");}
 //            System.out.println("hi blaaa!!!");  тойжэ спосиб только в обратном порядке
@@ -32,11 +32,11 @@ public class Main {
 //            }
 //
 //        }
-        for (int i = 0, j = 10, k = 7 ; i <10 && j > 4 && k >= 49; i++, j--, k +=7 ) {
-            System.out.println("i =" + i);
-            System.out.println("j =" + j);
-            System.out.println("k =" + k);
-        }
+//        for (int i = 0, j = 10, k = 7; i <10 && j > 4; k >= 49  i++, j--, k += 7) {
+//            System.out.println("i =" + i);
+//            System.out.println("j =" + j);
+//            System.out.println("k =" + k);
+//        }
 
 
 //        for (int i = 0; i < 10; i++) ;
@@ -52,10 +52,8 @@ public class Main {
 //            num2 = sum;
 //
 //
-//        }
+        }
 
-    }
-    }
 
 
 
