@@ -23,21 +23,25 @@ public class HomeWork {
                     System.out.println("Wrong data, try again!!!");
                     scanner.nextLine();
                 }
-
             }
             if (userV < a) {
                 System.out.println("The bot created > number than you entered!");
-            } else if (userV > a) {
+            } if (userV > a) {
                 System.out.println("The bot created < number than you entered!");
+            } else if (userV == a) {
+                System.out.println("GOOD YOU WIN!!!");
+                {break;}
 
-            } else {
-                System.out.println("GOOD YOU WIN!!!!");{
-                    break;
-                }
-
+            } else  {System.out.println("You lost, the bot come up with a number = " + a);}
+//            } else {
+//                System.out.println(" GOOD YOU WIN!!!");
+//                {break;
+//                }
+//            }
+////                {System.out.println("You lost, the bot come up with a number = " + a);}
             }
-
         }
-        System.out.println("You lost, the bot come up with a number = " + a);
     }
-}
+
+
+
