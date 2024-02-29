@@ -14,17 +14,25 @@ public class HomeWork {
 
         if (scanner.hasNextInt()) {
             userV = scanner.nextInt();
-            if (userV >= 0 && userV <= 10) { break;
+            if (userV >= 0 && userV <= 10) {
+                break;
             } else {
                 System.out.println("FROM 0 TO 10");
               scanner.nextLine();
         }
         }else {
-            System.out.println("Wrong data, try again!!!"); scanner.nextLine();
-        }
+            System.out.println("Wrong data, try again!!!");
+            scanner.nextLine();
+        } if (userV == a) {
+                    System.out.println("Good you WIN!!!");
+                } else if (userV < a) {
+                    System.out.println("The bot created > number than you entered!");
+
+                }else{
+                    System.out.println("The bot created < number than you entered!");
 
 
-    }
+            }
 }
 }
 }
