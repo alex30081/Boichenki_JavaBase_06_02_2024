@@ -2,7 +2,7 @@ package ua.hillel.boichenko.lessons.lesson6;
 
 import java.util.Scanner;
 
-public class HomeWork {
+public class HomeWork7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int random = (int) (Math.random() * 11);
