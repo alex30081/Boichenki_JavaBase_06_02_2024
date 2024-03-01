@@ -26,19 +26,14 @@ public class HomeWork {
             }
             if (userV < a) {
                 System.out.println("The bot created > number than you entered!");
-            } if (userV > a) {
+            } else if (userV > a) {
                 System.out.println("The bot created < number than you entered!");
-            } else if (userV == a) {
+            } else {
                 System.out.println("GOOD YOU WIN!!!");
                 {break;}
 
-            } else  {System.out.println("You lost, the bot come up with a number = " + a);}
-//            } else {
-//                System.out.println(" GOOD YOU WIN!!!");
-//                {break;
-//                }
-//            }
-////                {System.out.println("You lost, the bot come up with a number = " + a);}
+            } if ( i == 4){System.out.println("You lost, the bot come up with a number = " + a);}
+
             }
         }
     }
