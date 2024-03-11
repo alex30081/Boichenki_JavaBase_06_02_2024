@@ -34,7 +34,7 @@ public class HomeWork {
         System.out.println(" Player numbers =  " + Arrays.toString(player));
         for (int i = 0; i < lottery.length; i++) {
             if (lottery[i] == player[i] ) {
-                int counter = i++;
+                System.out.print(i);
             }
             }
      }
