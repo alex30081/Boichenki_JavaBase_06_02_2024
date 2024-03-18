@@ -59,16 +59,51 @@ public class Main {
 //            array[i] = (int)(Math.random()*101);
 //            System.out.print(array[i] + " ");
 //        }
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+//        int[] array = new int[10];
+//        for (int i = 0; i < array.length; i++) {
+//            int randomNumber = (int) (Math.random()*11);
+//            array[i] = randomNumber;
+//        }
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.print(array[i] + ",");
+//            if (i == array.length-1) {
+//                System.out.println(array[i]);
+//            }
+//            else {
+//                System.out.print(array[i] + ",");
+//            }
+//
+//        }
+//        int maxValue = 0;
+//        int indexMaxValue = 0;
+//        int[] people = {11,44,98,44,227,33,55,22,90,9};
+//        for (int i = 0; i < people.length; i++) {
+//            if (people[i] > maxValue){
+//                maxValue = people[i];
+//                indexMaxValue = i;
+//            }
+//
+//        }
+//        System.out.println("MaxValue = " + maxValue + ",IndexMaxValue = " + indexMaxValue);
+        int teamOne = 0;
+        int teamTwo = 0;
+        int[] team = new int[10];
+        for (int i = 0; i < team.length; i++) {
+            team[i] = (int) (Math.random() * 11);
+            if (i % 2 == 0){
+                teamOne += team[i];
+            }
+            else {
+                teamTwo += team[i];
+            }
+        }
+            System.out.println(Arrays.toString(team));
+        System.out.println("TeamOne = " + teamOne);
+        System.out.println("TeamTwo = " + teamTwo);
+        if (teamOne > teamTwo) {
+            System.out.println("Win TeamOne");
+        } else if (teamTwo > teamOne) {
+            System.out.println("Win TeamTwo");}
+        else {
+                System.out.println("Draw");   }
+}}
