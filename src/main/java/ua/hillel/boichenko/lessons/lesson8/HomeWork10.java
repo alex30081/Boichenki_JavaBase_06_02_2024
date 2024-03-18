@@ -1,6 +1,6 @@
 package main.java.ua.hillel.boichenko.lessons.lesson8;
 import java.util.Arrays;
-public class HomeWork {
+public class HomeWork10 {
     public static void main(String[] args) {
         int[] lottery = new int[7];
         int[] player = new int[7];
