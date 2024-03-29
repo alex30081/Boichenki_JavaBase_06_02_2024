@@ -9,5 +9,5 @@ public class Person {
         static void personInfo(String name, String surname, String citi, String telephone) {
             System.out.println("Call to " + name +" " + surname + " " + citi + " for the number " + telephone);
 
-        }
+    }
 }

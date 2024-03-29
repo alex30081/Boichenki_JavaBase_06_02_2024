@@ -64,31 +64,58 @@ public class Main {
 //        System.out.println(sum(1, 2, 3, 4));
 //        System.out.println(sum(1, 2, 3, 4, 5));
 //        System.out.println(sum(3, 5, 9));
-        demoReturn(2);
+//        demoReturn(2);
+//        System.out.println(demoRerutnMethod(333333333));
+//        System.out.println(getFactorial(14));
+//        System.out.println(evclide(9, 3));
     }
-//    static double sum (int a, double b, int c){
-//        return a + b + c;
-//    }
-//    static int sum(int a, int b, int c, int d, int e){
-//        return a + b + c + d + e;
-//    }
-//    static int sum(int a, int b, int c, int d){
-//
-//        return a + b + c + d;
-//    }
-//    static int sum(int a, int b, int c){
-//
-//        return a + b + c;
-//    }
-//    static int sum (int a, int b){
-//        return a + b;
-//    }
+    static int evclide(int n, int m){ // рекурсия. пошук нйбильшого общого дильныка
+        if (n == m){
+            return n;
+        } else if (n > m) {
+            return evclide(n - m, m);
+        }
+        else
+            return evclide(n, m - n);
+    }
+    static double sum (int a, double b, int c){
+        return a + b + c;
+    }
+    static int sum(int a, int b, int c, int d, int e){
+        return a + b + c + d + e;
+    }
+    static int sum(int a, int b, int c, int d){
+
+        return a + b + c + d;
+    }
+    static int sum(int a, int b, int c){
+
+        return a + b + c;
+    }
+    static int sum (int a, int b){
+        return a + b;
+    }
     static void demoReturn (int x){
         if (x == 2){
         return;
         }
         System.out.println("dfaesrgsergb");
     }
+    static int demoRerutnMethod(int x) {
+        if (x == 2) {
+            return 2;
+        } else if (x == 3) {
+        return 3;
+        }
+        else {
+            return 999;
+        }
 
-
-}
+    }
+    static int getFactorial( int number){
+        if (number == 1) {
+            return 1;
+        }
+        return number * getFactorial(number-1);
+    }
+    }
