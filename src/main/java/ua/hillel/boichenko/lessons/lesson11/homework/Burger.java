@@ -1,6 +1,13 @@
 package main.java.ua.hillel.boichenko.lessons.lesson11.homework;
 
 public class Burger {
+    public static void main(String[] args) {
+        Burger burger = new Burger("bun, ", 2 , "meat, ", "cheese, ",
+                "greenery, ", "mayonnaise");
+        burger.classicBurger();
+        burger.dietBurger();
+        burger.burgerDoubleMeat();
+    }
     
         String bun;
         String meat;
@@ -44,10 +51,10 @@ public class Burger {
     }
 
     void dietBurger(){
-        System.out.println("Diet Burger =" + bun + meat + cheese + greenery);
+        System.out.println("Diet Burger = " + bun + meat + cheese + greenery);
     }
     void burgerDoubleMeat(){
-        System.out.println("Burger Double Meat =" + bun + doubleMeat + cheese + greenery + mayonnaise);
+        System.out.println("Burger Double Meat = " + bun + doubleMeat + meat + cheese + greenery + mayonnaise);
     }
 
 }
