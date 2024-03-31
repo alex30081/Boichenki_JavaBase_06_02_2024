@@ -11,6 +11,7 @@ public class BurgerMain {public static void main(String[] args) {
         burger.classicBurger();
         burger.dietBurger();
         burger.burgerDoubleMeat();
+        System.out.println();
 
 
     }
