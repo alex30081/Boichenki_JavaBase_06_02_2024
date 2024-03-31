@@ -27,6 +27,7 @@ public class Main {
         Person alex = new Person("Alex", 25);
 //        System.out.println(alex.age);
         System.out.println(alex);
+        System.out.println();
 
     }
 }
