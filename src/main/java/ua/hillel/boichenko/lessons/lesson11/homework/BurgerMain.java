@@ -1,6 +1,7 @@
 package main.java.ua.hillel.boichenko.lessons.lesson11.homework;
 
-public class BurgerMain {public static void main(String[] args) {
+public class BurgerMain {
+        public static void main(String[] args) {
         Burger burger = new Burger("bun, ", 2 , " meat, ", "cheese, ", "greenery, ",
                 "mayonnaise");
         burger.bun = "Classic bun, ";

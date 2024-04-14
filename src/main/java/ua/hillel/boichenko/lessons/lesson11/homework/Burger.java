@@ -8,34 +8,34 @@ public class Burger {
         burger.dietBurger();
         burger.burgerDoubleMeat();
     }
-    
+
         String bun;
         String meat;
         int doubleMeat;
         String cheese;
         String greenery;
         String mayonnaise;
-
-
-
-    public Burger (String bun, String meat, String cheese, String greenery) {
-        this.bun = bun;
-        this. meat = meat;
-        this.cheese = cheese;
-        this.greenery = greenery;
-        this.mayonnaise = mayonnaise;
-        this.doubleMeat = doubleMeat;
-
-    }
-
-
-    public Burger(String bun, String meat, String cheese, String greenery, String mayonnaise) {
-        this.bun = bun;
-        this. meat = meat;
-        this. cheese = cheese;
-        this. greenery = greenery;
-        this. mayonnaise = mayonnaise;
-    }
+//
+//
+//
+//    public Burger (String bun, String meat, String cheese, String greenery) {
+//        this.bun = bun;
+//        this. meat = meat;
+//        this.cheese = cheese;
+//        this.greenery = greenery;
+//        this.mayonnaise = mayonnaise;
+//        this.doubleMeat = doubleMeat;
+//
+//    }
+//
+//
+//    public Burger(String bun, String meat, String cheese, String greenery, String mayonnaise) {
+//        this.bun = bun;
+//        this. meat = meat;
+//        this. cheese = cheese;
+//        this. greenery = greenery;
+//        this. mayonnaise = mayonnaise;
+//    }
 
     public Burger(String bun, int doubleMeat, String meat, String cheese, String greenery, String mayonnaise) {
         this. bun = bun;
