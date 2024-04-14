@@ -8,5 +8,6 @@ public class Main {
         System.out.println();
 
         car.stop();
+        System.out.println(car.getColor());
     }
 }

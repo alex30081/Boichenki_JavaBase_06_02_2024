@@ -8,8 +8,11 @@ public class BurgerMain {public static void main(String[] args) {
         burger.cheese = "Cream cheese, ";
         burger.greenery = "Lettuce leaves, ";
         burger.mayonnaise = "Classic organic mayonnaise, ";
+
         burger.classicBurger();
+
         burger.dietBurger();
+
         burger.burgerDoubleMeat();
         System.out.println();
 

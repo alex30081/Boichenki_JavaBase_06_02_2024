@@ -43,4 +43,28 @@ public class Car {
     private void stopGPSSystem(){
         System.out.println("Stop GPS System");
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setCountWheels(int countWheels) {
+        this.countWheels = countWheels;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getFuelStatus() {
+        return fuelStatus;
+    }
+
+    public int getCountWheels() {
+        return countWheels;
+    }
+
+    public boolean isStart() {
+        return isStart;
+    }
 }
