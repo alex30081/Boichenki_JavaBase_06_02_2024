@@ -23,5 +23,11 @@ public class Main {
                 2004, "piter@malkolm.gmail", "+31434384582", 90, 40, 19890);
         malkoln.printAccountInfo();
         System.out.println();
+        dorohov.sumStep = 28940;
+        boichenko.weight = 87;
+        boichenko.pressure = 92;
+        dorohov.weight = 69;
+        dorohov.printAccountInfo();
+        boichenko.printAccountInfo();
     }
 }
