@@ -3,7 +3,7 @@ package main.java.ua.hillel.boichenko.lessons.lesson12.homeWork;
 public class Main {
     public static void main(String[] args) {
 
-// "       FitnessTracker dorohov = new FitnessTracker("Sergey", "Dorohov",  19, 07,
+//        FitnessTracker dorohov = new FitnessTracker("Sergey", "Dorohov",  19, 07,
 //                1983, "jhbkj@kj;lkn", "+2434384582", 90, 40, 13989);
 //        dorohov.printAccountInfo();
 //
@@ -29,5 +29,5 @@ public class Main {
 //        dorohov.weight = 69;
 //        dorohov.printAccountInfo();
 //        boichenko.printAccountInfo();
-//    }
-}}
+    }
+}
