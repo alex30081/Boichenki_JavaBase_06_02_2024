@@ -38,6 +38,46 @@ public class FitnessTraker1 {
     public int pressure;
     public int sumStep;
 
+    public int getDate() {
+        return date;
+    }
+
+    public int getSumStep() {
+        return sumStep;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public int getAge() {
         return age;
     }
