@@ -25,8 +25,7 @@ public class Main {
         };
         for (Music music : musicStyle) {
             for (Music music1 : tipeMusic) {
-                musicStyle.pl
-
+                
             }
 
         }
