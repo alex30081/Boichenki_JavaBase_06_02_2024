@@ -1,6 +1,6 @@
 package main.java.ua.hillel.boichenko.lessons.lesson13.homeWorck;
 
-public abstract class MusicStyles {
+public abstract class MusicStyles extends Music{
 
     String nameTeam;
 
@@ -8,5 +8,5 @@ public abstract class MusicStyles {
         this.nameTeam = nameTeam;
     }
 
-    abstract void  playMusic() ;
+    public abstract void  playMusic() ;
 }
