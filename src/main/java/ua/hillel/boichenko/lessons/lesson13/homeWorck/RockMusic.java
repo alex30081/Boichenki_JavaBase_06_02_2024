@@ -6,7 +6,7 @@ public class RockMusic extends MusicStyles{
         super(nameTeam);
     }
 @Override
-    void playMusic() {
+public void playMusic() {
     System.out.println(nameTeam + "ROOOKKK ROOOKKK ROOOOOKKK!!!!!!");
 }
 }

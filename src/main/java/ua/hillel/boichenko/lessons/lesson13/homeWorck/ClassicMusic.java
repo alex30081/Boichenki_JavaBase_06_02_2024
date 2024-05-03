@@ -7,7 +7,7 @@ public class ClassicMusic extends MusicStyles {
     }
 
     @Override
-    void playMusic() {
+    public void playMusic() {
         System.out.println( nameTeam + " LA LALA LA LALALA LALA LA la");
     }
 
